@@ -11,8 +11,10 @@
 |
 */
 
+use Illuminate\Support\Facades\Route;
+
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/transaction', [ChargeController::class, 'transaction']);
+Route::get('/transaction', 'ChargeController@transaction');

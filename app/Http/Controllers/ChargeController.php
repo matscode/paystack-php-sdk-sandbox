@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Matscode\Paystack\Paystack;
 
 class ChargeController extends Controller
 {
