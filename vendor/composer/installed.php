@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '057a4df1f3853d59bfed90f0941c5030f4478377',
         'name' => 'matscode/paystack-php-sdk-sandbox',
         'dev' => true,
     ),
@@ -17,6 +17,15 @@
             'install_path' => __DIR__ . '/../doctrine/inflector',
             'aliases' => array(),
             'reference' => '4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9',
+            'dev_requirement' => false,
+        ),
+        'graham-campbell/result-type' => array(
+            'pretty_version' => 'v1.0.4',
+            'version' => '1.0.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../graham-campbell/result-type',
+            'aliases' => array(),
+            'reference' => '0690bde05318336c7221785f2a932467f98b64ca',
             'dev_requirement' => false,
         ),
         'guzzlehttp/guzzle' => array(
@@ -119,12 +128,12 @@
             'dev_requirement' => false,
         ),
         'matscode/paystack-php-sdk-sandbox' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '057a4df1f3853d59bfed90f0941c5030f4478377',
             'dev_requirement' => false,
         ),
         'mikecao/flight' => array(
@@ -146,12 +155,23 @@
             'dev_requirement' => false,
         ),
         'philo/laravel-blade' => array(
-            'pretty_version' => 'v3.1',
-            'version' => '3.1.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../philo/laravel-blade',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => 'e7ba5320dcc666423973bc2efb7020b3fde2f1b8',
+            'dev_requirement' => false,
+        ),
+        'phpoption/phpoption' => array(
+            'pretty_version' => '1.8.1',
+            'version' => '1.8.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpoption/phpoption',
             'aliases' => array(),
-            'reference' => '3f0ce2ee198604c53c25188110e6d7b5e887527a',
+            'reference' => 'eab7a0df01fe2344d172bff4cd6dbd3f8b84ad15',
             'dev_requirement' => false,
         ),
         'psr/container' => array(
@@ -262,6 +282,15 @@
             'reference' => 'b6b6ad3db3edb1b4b1c1896b1975fb684994de6e',
             'dev_requirement' => false,
         ),
+        'symfony/polyfill-ctype' => array(
+            'pretty_version' => 'v1.25.0',
+            'version' => '1.25.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-ctype',
+            'aliases' => array(),
+            'reference' => '30885182c981ab175d4d034db0f6f469898070ab',
+            'dev_requirement' => false,
+        ),
         'symfony/polyfill-mbstring' => array(
             'pretty_version' => 'v1.25.0',
             'version' => '1.25.0.0',
@@ -309,6 +338,15 @@
             'replaced' => array(
                 0 => '<5.5.33',
             ),
+        ),
+        'vlucas/phpdotenv' => array(
+            'pretty_version' => 'v5.4.1',
+            'version' => '5.4.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../vlucas/phpdotenv',
+            'aliases' => array(),
+            'reference' => '264dce589e7ce37a7ba99cb901eed8249fbec92f',
+            'dev_requirement' => false,
         ),
     ),
 );

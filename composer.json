@@ -8,9 +8,10 @@
     "license": "MIT",
     "require": {
         "php": "^7.0|^8.0",
+        "matscode/paystack-php-sdk": "dev-dev",
         "mikecao/flight": "^2.0",
-        "philo/laravel-blade": "^3.0",
-        "matscode/paystack-php-sdk": "dev-dev"
+        "philo/laravel-blade": "dev-master",
+        "vlucas/phpdotenv": "^5.4"
     },
     "repositories": [
         {
@@ -23,6 +24,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/matscode/paystack-php-sdk"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/matscode/laravel-blade"
         }
     ],
     "autoload": {

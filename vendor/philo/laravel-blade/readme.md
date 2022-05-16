@@ -1,4 +1,4 @@
-### Installation (Blade Laravel 5.1)
+### Installation (Blade Laravel 5.1) - (Supports PHP 8)
 The package can be installed via Composer by requiring the "philo/laravel-blade": "3.*" package in your project's composer.json.
 
 ```json
@@ -48,5 +48,5 @@ $blade = new Blade($views, $cache);
 echo $blade->view()->make('hello')->render();
 ```
 
-You can use all blade features as described in the Laravel 5 documentation:
-http://laravel.com/docs/templates#blade-templating
+You can use all blade features as described in the Laravel 5.1 documentation:
+https://laravel.com/docs/5.1/blade
