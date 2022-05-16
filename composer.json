@@ -1,0 +1,43 @@
+{"name": "matscode/paystack-php-sdk-sandbox",
+    "type": "project",
+    "description": "The paystack php SDK sandbox",
+    "keywords": [
+        "framework",
+        "sandbox"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0|^8.0",
+        "mikecao/flight": "^2.0",
+        "philo/laravel-blade": "^3.0",
+        "matscode/paystack-php-sdk": "dev-dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "~/projects/paystack-php-sdk",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/matscode/paystack-php-sdk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Matscode\\Sandbox\\": "app/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "kylekatarnls/update-helper": false
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
